@@ -1,0 +1,167 @@
+/* Cart Container */
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Cart Item */
+  .cartItem {
+    width: 100%; /* Take full width */
+    max-width: 700px; /* Limit maximum width */
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Slightly reduce border-radius */
+    margin: 20px 0; /* Adjust margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #fff; /* White background */
+  }
+  
+  .cartItem img {
+    width: 200px;
+    max-height: 150px; /* Limit maximum image height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 15px; /* Rounded corners */
+    margin-right: 20px; /* Space between image and description */
+  }
+  
+  .cartItem .description {
+    flex-grow: 1; /* Allow description to take remaining width */
+    font-size: 24px; /* Reduce font size for better readability */
+  }
+  
+  /* Count Handler */
+  .countHandler {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Add spacing between count handler and description */
+  }
+  
+  .countHandler button {
+    width: 30px; /* Reduce button width */
+    height: 30px; /* Reduce button height */
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 50%; /* Make the buttons circular */
+    margin: 0 10px; /* Add spacing between buttons */
+    cursor: pointer;
+  }
+  
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    outline: none; /* Remove input outline */
+    font-size: 20px;
+    background-color: transparent; /* Transparent background */
+  }
+  
+  /* Checkout Button */
+  .checkout {
+    text-align: center; /* Center align the button */
+  /* Cart Container */
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Cart Item */
+.cartItem {
+  width: 100%; /* Take full width */
+  max-width: 700px; /* Limit maximum width */
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px; /* Slightly reduce border-radius */
+  margin: 20px 0; /* Adjust margin for spacing */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #fff; /* White background */
+}
+
+.cartItem img {
+  width: 200px;
+  max-height: 150px; /* Limit maximum image height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 15px; /* Rounded corners */
+  margin-right: 20px; /* Space between image and description */
+}
+
+.cartItem .description {
+  flex-grow: 1; /* Allow description to take remaining width */
+  font-size: 24px; /* Reduce font size for better readability */
+}
+
+/* Count Handler */
+.countHandler {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Add spacing between count handler and description */
+}
+
+.countHandler button {
+  width: 30px; /* Reduce button width */
+  height: 30px; /* Reduce button height */
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 50%; /* Make the buttons circular */
+  margin: 0 10px; /* Add spacing between buttons */
+  cursor: pointer;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  outline: none; /* Remove input outline */
+  font-size: 20px;
+  background-color: transparent; /* Transparent background */
+}
+
+/* Checkout Button */
+.checkout {
+  text-align: center; /* Center align the button */
+  margin-top: 20px; /* Add top margin to the button */
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px; /* Reduce font size for better fit */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkout button:hover {
+  background-color: #333; /* Darker background on hover */
+}
+
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Reduce font size for better fit */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .checkout button:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  
